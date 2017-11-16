@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>random</title>
+
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+    {% if message %}
+      <h1>{{ message }}</h1>
+    {% else %}
+      <h1>{{ ponovi }}</h1>
+    </br>
+      <a href="/"><button>Try again!</button></a>
+    {% endif %}
+</body>
+</html>
